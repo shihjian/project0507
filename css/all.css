@@ -156,6 +156,16 @@ a{
   border: 0;
 }
 
+.header_container p{
+  text-align: center;
+  line-height: 1.5em;
+  letter-spacing: 0.5px;
+  color: #fff;
+  font-size: 22px;
+  font-weight: 900;
+
+}
+
 .mouse{
     position: absolute;
     width: 10px;
@@ -165,7 +175,6 @@ a{
     top: 85%;
     left: 50%;
     transform: translate(-50%,-50%);
-    
     -webkit-animation-name: drop;
     -webkit-animation-duration: 1s;
     -webkit-animation-timing-function: linear;
