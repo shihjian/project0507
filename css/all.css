@@ -314,6 +314,19 @@ a{
   transition: width 1s ease;
 }
 
+.animated{
+  opacity: 0;
+  transition: all 1.5s;
+  transform: translateY(50px);
+
+}
+
+.fadein{
+  opacity: 1;
+  transform: translateY(0px);
+
+}
+
 @-webkit-keyframes drop {
   0% {
     top: 85%;

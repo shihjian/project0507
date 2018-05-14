@@ -14,6 +14,7 @@ $(document).ready(function() {
   $('html, body').animate({scrollTop: targetPos}, 1000);
   });
 
+
   $(window).scroll(function(){
 
     var scrollPos = $(window).scrollTop();
@@ -40,6 +41,13 @@ $(document).ready(function() {
       $(this).css('width', thisValue + '%');
     });
   }
+
+  $('.animated').each(function(){
+    var thispos = $(this).offset().top;
+    if((windowHeight + scrollPos) >= thispos) {
+      $(this).addClass('fadein');
+   }
+  });
     });
 
 });
