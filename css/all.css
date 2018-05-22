@@ -227,6 +227,16 @@ a{
 
 }
 
+.about_container p {
+  text-align: center;
+  line-height: 2em;
+  letter-spacing: 0.5px;
+  padding: 10px;
+  color: #000;
+  font-size: 16px;
+  font-weight: 900;
+}
+
 .skill_container h1{
   font-size: 500%;
   text-align: center;
@@ -270,7 +280,15 @@ a{
   color: #fff;
 }
 
-
+.textbox{
+  text-align: center;
+  line-height: 2em;
+  letter-spacing: 0.5px;
+  padding: 10px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 900;
+}
 .col-half h1{
   margin:0;
   padding:0;
