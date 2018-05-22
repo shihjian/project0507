@@ -431,7 +431,7 @@ a{
   
   }
 
-  .textbox{
+  .textbox,.text-center span{
     display: none;
   }
 
