@@ -4,8 +4,14 @@ $(document).ready(function() {
    $('.showmenu').on('click',  function(e){
       e.preventDefault();
       $('body').toggleClass('menu-show');
-      $('body').toggleClass('active');
+ 
   });
+
+  $('.menu li').on('click',  function(e){
+    e.preventDefault();
+    $('body').removeClass('menu-show');
+
+});
 
   $('.scrolltop').click(function(e){
   e.preventDefault();

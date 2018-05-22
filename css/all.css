@@ -385,7 +385,7 @@ a{
   .menu {
     max-height: 0px;
     overflow: hidden;
-    transition: max-height 2s;
+    transition: max-height 2.3s;
     margin-top: 1px;
     position: absolute;
     z-index: 100;
@@ -420,7 +420,7 @@ a{
   .col-half{
     width: 100%;
     float:none;
-    padding:10px;
+    padding:2px;
     color: #fff;
     margin: 0 auto;
   }
@@ -430,5 +430,10 @@ a{
     height: auto;
   
   }
+
+  .textbox{
+    display: none;
+  }
+
 }
 
