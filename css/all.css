@@ -424,7 +424,15 @@ a{
     width: 100%;
 }
 
-
+.about_container p {
+  text-align: center;
+  line-height: 2em;
+  letter-spacing: 0.5px;
+  padding: 10px;
+  color: #000;
+  font-size: 16px;
+  font-weight: 900;
+}
 
   .menu-show .menu{
     max-height: 500px
