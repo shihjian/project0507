@@ -430,6 +430,7 @@ a{
   background-clip: border-box;
   border: 1px solid rgba(0,0,0,.125);
   border-radius: .25rem;
+  width: 25rem;
   }
     
   .card-img-top {
@@ -570,5 +571,9 @@ a{
   .contact_container h1{
     font-size: 299%;
   }
+
+  .card {
+    width: 18rem;
+}
 }
 
