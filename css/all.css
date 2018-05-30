@@ -406,6 +406,10 @@ a{
 .photo{
   text-align: center;
 }
+
+.contact_container{
+  
+}
 @-webkit-keyframes drop {
   0% {
     top: 85%;
