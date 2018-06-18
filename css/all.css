@@ -360,8 +360,12 @@ a{
   height: 100vh;
 }
 
-
-
+.work_container{
+    padding-bottom: 150px;
+    text-align: center;
+    max-width: 1000px;
+    margin: 0 auto;
+}
 
 .work_container h1{
   font-size: 500%;
@@ -410,9 +414,25 @@ a{
   text-align: center;
 }
 
-.contact_container{
-  
+.cards{
+  text-align: center;
 }
+
+.box img {
+  max-height: 200px;
+}
+
+.cleatfix{
+  clear: both;
+}
+
+.box{
+  float: left;
+  margin: 10px;
+  position: relative;
+  overflow: hidden;
+}
+
 
 .card {
   margin: 0 auto;
@@ -572,8 +592,14 @@ a{
     font-size: 299%;
   }
 
-  .card {
+  .card_i {
     width: 18rem;
+    margin-bottom: 10px;
+    
+}
+
+.box{
+  float: none;
 }
 }
 
