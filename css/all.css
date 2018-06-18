@@ -356,7 +356,7 @@ a{
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  width: 100%;
+  width: auto;
   height: 100vh;
 }
 
@@ -433,6 +433,9 @@ a{
   overflow: hidden;
 }
 
+imag{
+  display: block
+}
 
 .card {
   margin: 0 auto;
@@ -600,6 +603,10 @@ a{
 
 .box{
   float: none;
+}
+
+.box img {
+  max-height: 96px;
 }
 }
 
