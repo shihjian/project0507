@@ -351,48 +351,43 @@ a{
 }
 
 .work{
-  background-image: url('../image/bg3.png');
+  background-image: url(../image/bg3.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  width: auto;
+  width: 100%;
   height: 100vh;
+}
+
+.work_container{
+  text-align: center;
+  max-width: 1000px;
+  margin: 0 auto;
 }
 
 .work_container h1{
   font-size: 500%;
   text-align: center;
-  padding-top: 40px;
+  padding-top:40px;
   color: #fff;
 }
 
-.work_container hr {
+.work_container hr{
   width: 50px;
   height: 5px;
   background-color: #F05F40;
   border: 0;
-  margin-bottom: 60px;
-}
-
-.portfoliocontent{
-  padding-bottom: 150px;
-  text-align: center; 
-  max-width: 680px;
-  margin: 0 auto;
 
 }
-
-
 
 .box{
-  max-width: 320px;
-  max-height: 200px;
-  float: left;
-  margin: 5px;
-  position: relative;
-  overflow: hidden;
-  text-align: center;
+    max-width: 320px;
+    max-height: 200px;
+    float: left;
+    margin: 5px;
+    position: relative;
+    overflow: hidden;
 }
 
 .box img{
@@ -401,20 +396,19 @@ a{
 }
 
 .title{
-    background: rgba(255,255,255,.7);
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    opacity: 0;
-    -webkit-transition: all ease .5s;
-    transition: all ease .5s;
-    color: #262626;  
+  background: rgba(255,255,255,.7);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  -webkit-transition: all ease .5s;
+  transition: all ease .5s;
+  color: #262626;  
 }
 
 .title:hover{
-    opacity: 1;  
+  opacity: 1;  
 }
-
 
 .titlecenter p{
   font-size: 22px;
@@ -427,7 +421,6 @@ a{
 
 }
 
-/* 文字置中 */
 .title:before {
   content: "";
   height: 100%;
@@ -439,75 +432,6 @@ a{
   display: inline-block;
   vertical-align: middle;
   line-height: 25px;
-}
-
-
-.contact{
-  background-color: #F5F5F5;
-  width: 100%;
-  height: 100vh;
-
-}
-
-.contact_container h1{
-  font-size: 500%;
-  text-align: center;
-  padding-top: 40px;
-  color: #000;
-}
-
-.contact_container hr {
-  width: 50px;
-  height: 5px;
-  background-color: #F05F40;
-  border: 0;
-  margin-bottom: 60px;
-}
-
-.contact_container img {
-  margin: 0 auto;
-  border-radius:25%;
-  margin: 15px 0;
-}
-
-.photo{
-  text-align: center;
-}
-
-.cards{
-  text-align: center;
-}
-
-.box img {
-  max-height: 200px;
-}
-
-.cleatfix{
-  clear: both;
-  margin: 0 autos;
-}
-
-.box{
-  float: left;
-  margin: 10px;
-  position: relative;
-  overflow: hidden;
-  
-}
-
-.box {
- color: #fff;
-  
-}
-
-imag{
-  display: block
-}
-
-
-
-.card-title {
-  margin-bottom: .75rem;
 }
 @-webkit-keyframes drop {
   0% {
@@ -552,6 +476,11 @@ imag{
   .menu li {
     text-align: center;
     width: 24%;
+}
+
+.all_work{
+  width: 90%;
+  margin: 0 25% 0 25%;
 }
 
 }
