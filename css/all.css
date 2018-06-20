@@ -56,10 +56,9 @@ a{
        box-sizing: border-box;
 }
 
-.clearfix::after {
-  content: "";
-  display: block;
-  clear: both; }
+.clearfix{
+  clear: both;
+}
 /*****************************************************/
 .wrap{
     width: 100%;
@@ -551,7 +550,7 @@ a{
   }
 
   .all_work{
-    width: 100%;
+  
     margin: 0 auto;
 
   }
