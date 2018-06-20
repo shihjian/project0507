@@ -566,7 +566,8 @@ a{
 
 
 .box img {
-  max-height: 96px;
+  max-height: 120px;
+  display: block;
 }
 }
 
