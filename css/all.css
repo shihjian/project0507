@@ -59,6 +59,12 @@ a{
 .clearfix{
   clear: both;
 }
+
+
+img{
+max-width:100%;
+height:auto;
+}
 /*****************************************************/
 .wrap{
     width: 100%;
