@@ -623,12 +623,12 @@ imag{
 
   .allportfolio{
     width: 100%;   
-    margin:0 5% 0 5%;
+    margin:2% 5% 2% 5%;
   }
 
   .allportfolio ul li{
-  margin-left: 110px;
-  }
+    margin-left: 90px;
+    }
 
   .work_container h1{
     font-size: 400%;
