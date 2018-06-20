@@ -551,8 +551,9 @@ a{
   }
 
   .all_work{
-    width: 90%;
-    margin: 0 25% 0 25%;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 50%;
   }
   .textbox,.text-center span{
     display: none;
