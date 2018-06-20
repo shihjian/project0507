@@ -554,6 +554,10 @@ a{
     margin: 0 auto;
 
   }
+
+  .work{
+    height: 100%;
+  }
   .textbox,.text-center span{
     display: none;
   }
