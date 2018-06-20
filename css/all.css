@@ -553,7 +553,7 @@ a{
   .all_work{
     width: 100%;
     margin: 0 auto;
-    padding: 0 50%;
+
   }
   .textbox,.text-center span{
     display: none;
@@ -566,8 +566,8 @@ a{
 
 
 .box img {
-  max-height: 120px;
-  display: block;
+  max-height: 150px;
+  
 }
 }
 
