@@ -147,7 +147,7 @@ height:auto;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  background-attachment: fixed;
+  
   width: 100%;
   height: 100vh;
 
@@ -266,7 +266,7 @@ height:auto;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  background-attachment: fixed;
+  
   width: 100%;
   height: 100vh;
 
@@ -388,7 +388,7 @@ height:auto;
 
 .all_work{
   margin-top: 100px;
-  width: 90%;
+  padding: 0 87px;
 }
 
 .box{
@@ -533,6 +533,7 @@ margin: 0 auto;
   }
 }
 @media (max-width:767px){
+   
 
   .container span{
     float: none;
@@ -558,6 +559,8 @@ margin: 0 auto;
 
 @media (max-width:569px){
   
+
+
   .container span {
     float: left;
     font-size: 28px;
@@ -627,7 +630,11 @@ margin: 0 auto;
 
   }
 
- 
+  .all_work{
+
+    padding: 0 ;
+  }
+
   .textbox,.text-center span{
     display: none;
   }
@@ -647,5 +654,9 @@ margin: 0 auto;
   border-radius: 50%;
   max-width: 45%;
 }
+
+
+
 }
+
 
